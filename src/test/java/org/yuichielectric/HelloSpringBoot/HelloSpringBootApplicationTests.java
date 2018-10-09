@@ -16,4 +16,9 @@ public class HelloSpringBootApplicationTests {
 	public void contextLoads() {
 	}
 
+	@Test
+    public void failTest() {
+	    fail();
+    }
+
 }
