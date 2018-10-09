@@ -18,6 +18,7 @@ public class HelloSpringBootApplicationTests {
 
 	@Test
     public void failTest() {
+	    // Fail intentionally.
 	    fail();
     }
 
